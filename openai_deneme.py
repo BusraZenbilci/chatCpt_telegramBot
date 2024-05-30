@@ -3,10 +3,10 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # OpenAI API anahtarınızı burada ayarlayın
-openai.api_key = 'sk-proj-iG8ZeZ8TQI39nT97peVYT3BlbkFJpJBj9q0jqJVx0imiTfwJ'
+openai.api_key = 'YOUR OPENAI KEY'
 
 # Telegram Bot tokenınızı burada ayarlayın
-TELEGRAM_TOKEN = '7031646566:AAHk2xGGxBvIM_wnELJzWxFxD_pL5TJqghY'
+TELEGRAM_TOKEN = 'YOUR TELEGRAM KEY'
 
 def gpt35_chatbot(prompt):
     response = openai.ChatCompletion.create(
